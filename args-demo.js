@@ -1,3 +1,5 @@
 #!/usr/bin/env node
 
-console.log('global', global)
+let [,, ...args] = process.argv
+
+console.log(args)
